@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Raspberry Pie</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .btn-order {
+            display: inline-block;
+            padding: 10px 20px;
+            color: white;
+            background-color: #4CAF50;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .img-pie {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Order Your Raspberry Pie</h1>
+    </header>
+    <section>
+        <h2>Welcome to our Raspberry Pie Ordering Site!</h2>
+        <img src="raspberry_pie_image1.jpg" alt="Delicious Raspberry Pie" class="img-pie">
+        <p>Craving a delicious homemade raspberry pie? You've come to the right place! Just click the button below to place your order:</p>
+        <a href="#" class="btn-order">Order Now</a>
+    </section>
+    <section>
+        <h2>About Us</h2>
+        <img src="raspberry_pie_image2.jpg" alt="Fresh Raspberry Pie" class="img-pie">
+        <p>We bake the freshest raspberry pies using only the finest ingredients. Each pie is made to order, ensuring you get the best quality every time.</p>
+    </section>
+    <section>
+        <h2>Contact Us</h2>
+        <img src="raspberry_pie_image3.jpg" alt="Yummy Raspberry Pie" class="img-pie">
+        <p>Got questions? Reach out to us at <a href="mailto:info@raspberrypie.com">info@raspberrypie.com</a></p>
+    </section>
+</body>
+</html>
